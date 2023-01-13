@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="text">
+            <h1>Calculator using <br> <big>HTML CSS</big> <br> and <br> <big>JavaScript</big></h1>
+        </div>
+        <div id="cal">
+            <div class="screen">
+                <input type="text" id="input" class="input" placeholder="0" autocomplete="off">
+            </div>
+            <div class="buttons">
+                <div class="row">
+                    <button type="button" id="btnC" class="btn">C</button>
+                    <button type="button" id="operator" class="btn">%</button>
+                    <button type="button" id="operator" class="btn">/</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="" class="btn" onclick="document.getElementById('input').value += 7">7</button>
+                    <button type="button" id="" class="btn">8</button>
+                    <button type="button" id="" class="btn">9</button>
+                    <button type="button" id="operator" class="btn">+</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="" class="btn">4</button>
+                    <button type="button" id="" class="btn">5</button>
+                    <button type="button" id="" class="btn">6</button>
+                    <button type="button" id="operator" class="btn">-</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="" class="btn">1</button>
+                    <button type="button" id="" class="btn">2</button>
+                    <button type="button" id="" class="btn">3</button>
+                    <button type="button" id="operator" class="btn">*</button>
+                </div>
+                <div class="row">
+                    <button type="button" id="" class="btn">.</button>
+                    <button type="button" id="" class="btn">0</button>
+                    <button type="button" id="btnEqual" class="btn">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
